@@ -10,6 +10,15 @@ using System.Threading;
 using System.Windows.Forms;
 using System.Web.Script.Serialization;
 
+[assembly: System.Reflection.AssemblyTitle("DeskFence")]
+[assembly: System.Reflection.AssemblyProduct("DeskFence")]
+[assembly: System.Reflection.AssemblyDescription("Minimal desktop fence for Windows")]
+[assembly: System.Reflection.AssemblyCompany("DeskFence contributors")]
+[assembly: System.Reflection.AssemblyCopyright("MIT License")]
+[assembly: System.Reflection.AssemblyVersion("1.0.0.0")]
+[assembly: System.Reflection.AssemblyFileVersion("1.0.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersion("1.0.0")]
+
 namespace DeskFence
 {
     // =====================================================================

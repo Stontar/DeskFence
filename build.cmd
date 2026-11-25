@@ -27,6 +27,7 @@ if not defined CSC set "CSC=C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.
 
 echo Using compiler: %CSC%
 "%CSC%" /nologo /codepage:65001 /target:winexe /platform:anycpu /optimize+ /unsafe+ /out:"%OUT%" ^
+  /win32icon:"%SRC%\app.ico" ^
   /win32manifest:"%SRC%\app.manifest" ^
   /r:System.dll /r:System.Core.dll /r:System.Drawing.dll /r:System.Windows.Forms.dll ^
   /r:System.Web.Extensions.dll /r:Microsoft.VisualBasic.dll ^
