@@ -1,0 +1,14 @@
+# build output
+*.exe
+*.pdb
+*.ilk
+*.obj
+
+# VS / msbuild
+.vs/
+bin/
+obj/
+
+# local
+*.user
+*.log
